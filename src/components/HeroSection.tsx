@@ -43,6 +43,11 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ isLive }) => {
               </p>
             </div>
 
+            {/* Signature Quote Banner */}
+            <div className="bg-gradient-to-r from-pink-500 to-yellow-500 text-white text-center py-2 px-4 font-semibold text-sm tracking-wide shadow-md rounded-2xl">
+              🐎 "Horses don’t stop they keep going!" — Alexandra X Almonte
+            </div>
+
             {/* Luxury Editorial Subtitle */}
             <p className="font-serif-lux text-base sm:text-lg text-[#241E1C]/75 max-w-xl leading-relaxed">
               Where luxury resort escapism meets high-octane FPS lobbies, cozy midnight chats, and sun-drenched coastal stories. Step into the sunset lounge.
