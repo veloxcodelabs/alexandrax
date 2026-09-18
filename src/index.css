@@ -1,0 +1,60 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Poppins', -apple-system, BlinkMacSystemFont, sans-serif;
+    background-color: #FAF6F0;
+    color: #241E1C;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+  }
+}
+
+.font-serif-lux {
+  font-family: 'Lora', Georgia, serif;
+}
+
+.font-heading-lux {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.font-body-lux {
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Keyhole cutout mask inspired by reference dress */
+.keyhole-motif {
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+}
+
+.keyhole-badge {
+  position: relative;
+}
+.keyhole-badge::after {
+  content: '';
+  position: absolute;
+  bottom: -4px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 14px;
+  height: 4px;
+  border-radius: 9999px;
+  background-color: #E63973;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #FAF6F0;
+}
+::-webkit-scrollbar-thumb {
+  background: #E5DCD1;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #D4C7BA;
+}

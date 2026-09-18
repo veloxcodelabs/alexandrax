@@ -1,0 +1,6 @@
+{
+  "name": "Alexandra X Almonte Portfolio",
+  "description": "Sophisticated tropical-chic portfolio and landing page for Twitch streamer and creator Alexandra X Almonte.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
